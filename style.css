@@ -1,0 +1,164 @@
+body{
+    font-family: 'Raleway', arial;
+    margin: 0%;
+    color: #1d4924;
+    background-image: url("../images/background.jpg");
+}
+main{
+    text-align: center;
+}
+#documents{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.award{
+    width: 20%;
+    margin-bottom: 50px;
+    margin: 10px;
+}
+img {
+    border: 5px solid #1d4924;
+    max-width: 100%;
+    width: 45%;
+}
+#frame{
+    border: 5px solid #1d4924;
+    max-width: 100%;
+    width: 45%;
+}
+.bWVid{
+    width: 50%;
+    border: 5px solid #1d4924;
+}
+h1{
+    text-align: center;
+    background: #d5ffcc;
+    color: #1d4924;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 5em;
+}
+h2{
+    font-size: 4em;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-right: 5%;
+    background: #1d4924;
+    color: #d5ffcc;
+    margin-bottom: 150px;
+}
+h3, h4{
+    font-size: 2.5em;
+}
+h4{
+    text-align: center;
+}
+.bWH3{
+    padding-left: 30%;
+}
+p{
+    font-size: 1.5em;
+}
+.essay{
+    background: white;
+    padding: 30px;
+    margin: 50px;
+    border: 5px solid #1d4924;
+}
+hr{
+    border: 3px solid #1d4924;
+    width: 90%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+nav{
+    display: flex;
+    font-size: 1.3em;
+}
+.navigation{
+    padding: 30px;
+    background: #d5ffcc;
+    color: #1d4924;
+    text-decoration: none;
+    transition: .1s;
+    width:100%;
+    max-width:50%;
+    text-align: center;
+}
+.navigation:hover{
+    background: #1d4924;
+    color: #d5ffcc;
+    transition: .5s;
+}
+@media screen and (max-width:1700px){
+    h2{
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-right: 5%;
+    background: #1d4924;
+    color: #d5ffcc;
+    }
+    img {
+        width: 65%;
+    }
+    .award{
+        width: 40%;
+    }
+    main{
+        padding: 0px;
+        margin: 0%;
+    }
+}
+@media screen and (max-width:1000px){
+    body{
+        background: white;
+    }
+    h1{
+        font-size: 3em;
+        margin-right: 0%;
+    }
+    h2{
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        padding-left: 0%;
+        margin-right: 0%;
+    }
+    img {
+        width: 90%;
+        margin-top: 30px;
+    }
+    .award{
+        width: 47%;
+        margin: 0px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    .navigation{
+        font-size: .7em;
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .bWVid{
+        width: 100%;
+        border: none;
+    }
+    p{
+        font-size: 1em;
+    }
+    .essay{
+        background: white;
+        padding: 30px;
+        margin: 50px;
+        border: 5px solid #1d4924;
+    }
+}
